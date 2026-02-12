@@ -28,7 +28,7 @@ def build_chroma_index(chunks: list[Chunk]) -> chromadb.Collection:
     # Delete existing collection if present
     try:
         client.delete_collection(CHROMA_COLLECTION_NAME)
-    except ValueError:
+    except Exception:
         pass
 
     collection = client.create_collection(
