@@ -63,6 +63,8 @@ def generate_answer(
     )
 
     answer_text = response.choices[0].message.content
+    # Strip Qwen3 <think>...</think> reasoning blocks
+    answer_text = re.sub(r"<think>.*?</think>\s*", "", answer_text, flags=re.DOTALL)
     cited_nums = extract_citations(answer_text)
 
     # Build source references for cited chunks only
