@@ -12,7 +12,7 @@ CHROMA_DIR = PROJECT_ROOT / "chroma_db"
 
 # SEC EDGAR
 SEC_COMPANY_NAME = "JobSearchPortfolio"
-SEC_EMAIL = "michael.johnson.ds@gmail.com"
+SEC_EMAIL = "michael@johnsondatascience.com"
 TICKERS = ["PYPL", "SQ", "NFLX", "PARA", "CMG", "TGT", "NET", "DDOG"]
 
 # Models (all run locally on RTX A4500)
