@@ -13,7 +13,7 @@ CHROMA_DIR = PROJECT_ROOT / "chroma_db"
 # SEC EDGAR
 SEC_COMPANY_NAME = "JobSearchPortfolio"
 SEC_EMAIL = "michael@johnsondatascience.com"
-TICKERS = ["PYPL", "XYZ", "NFLX", "DIS", "CMG", "TGT", "NET", "DDOG"]
+TICKERS = ["PYPL", "XYZ", "NFLX", "DIS", "CMG", "TGT", "NET", "DDOG", "LZ"]
 
 # Models (all run locally on RTX A4500)
 EMBEDDING_MODEL = "BAAI/bge-large-en-v1.5"
