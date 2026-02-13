@@ -1,0 +1,152 @@
+[
+  {
+    "question": "How many employees did PayPal have as of December 31, 2025?",
+    "ground_truth": "PayPal employed approximately 23,800 people globally as of December 31, 2025.",
+    "category": "factual",
+    "company": "PYPL"
+  },
+  {
+    "question": "What was Cloudflare's employee headcount growth from 2021 to 2023?",
+    "ground_truth": "Cloudflare's headcount grew from 2,439 employees as of December 31, 2021, to 3,217 employees as of December 31, 2022, to 3,682 employees as of December 31, 2023.",
+    "category": "factual",
+    "company": "NET"
+  },
+  {
+    "question": "What was Datadog's net income or loss for the most recent fiscal year reported?",
+    "ground_truth": "Datadog reported net income of $183,746 thousand for the most recent fiscal year.",
+    "category": "factual",
+    "company": "DDOG"
+  },
+  {
+    "question": "What cybersecurity risks does Cloudflare face according to their 10-K filing?",
+    "ground_truth": "Cloudflare faces cybersecurity risks including service unavailability, potential vulnerabilities, and threats that pose significant risk given their focus on providing highly secure products. The increase in remote work has heightened these risks.",
+    "category": "analytical",
+    "company": "NET"
+  },
+  {
+    "question": "How does Netflix describe the risk of service interruptions in their 10-K?",
+    "ground_truth": "Netflix notes that service interruptions, errors in software, or unavailability of computer systems could diminish the overall attractiveness of their service to existing and potential members.",
+    "category": "analytical",
+    "company": "NFLX"
+  },
+  {
+    "question": "What competitive risks does Datadog face from larger competitors?",
+    "ground_truth": "Datadog's competitors, many of which are larger and have greater financial resources, may respond to challenging market conditions by lowering prices to attract customers and may be less dependent on key industry events.",
+    "category": "analytical",
+    "company": "DDOG"
+  },
+  {
+    "question": "How does Block (XYZ) describe the impact of bitcoin on their revenue?",
+    "ground_truth": "Block notes that their revenue may be distorted by the prices of bitcoin, as bitcoin revenue may increase or decrease due to changes in the price of, and demand for, bitcoin and may not correlate to customer or engagement growth rates.",
+    "category": "analytical",
+    "company": "XYZ"
+  },
+  {
+    "question": "What role does Chipotle's digital platform play in their business strategy?",
+    "ground_truth": "Chipotle's digital platform continues to be a strategic driver of their growth, with digital sales representing food and beverage revenue for company-owned restaurants.",
+    "category": "analytical",
+    "company": "CMG"
+  },
+  {
+    "question": "What measures does Datadog take to manage cybersecurity risk?",
+    "ground_truth": "Datadog takes measures and processes to mitigate, detect, and remediate actual and potential vulnerabilities, though there is no guarantee these will prevent or mitigate cybersecurity incidents.",
+    "category": "factual",
+    "company": "DDOG"
+  },
+  {
+    "question": "What percentage of PayPal's global workforce is located in the Americas?",
+    "ground_truth": "46% of PayPal's workforce is located in the Americas.",
+    "category": "factual",
+    "company": "PYPL"
+  },
+  {
+    "question": "What were the main risk factors mentioned in Netflix's most recent 10-K filing?",
+    "ground_truth": "Netflix's risk factors include service interruptions, software errors, system unavailability, competition, and cybersecurity threats that could degrade service quality and attractiveness to members.",
+    "category": "summary",
+    "company": "NFLX"
+  },
+  {
+    "question": "How does Target describe its business operations in their 10-K?",
+    "ground_truth": "Target is a general merchandise retailer that operates stores and digital channels across the United States.",
+    "category": "summary",
+    "company": "TGT"
+  },
+  {
+    "question": "What was Datadog's provision for income taxes in their most recent fiscal year?",
+    "ground_truth": "Datadog's provision for income taxes was $20,194 thousand in their most recent fiscal year.",
+    "category": "factual",
+    "company": "DDOG"
+  },
+  {
+    "question": "What are Disney's main business segments described in their 10-K?",
+    "ground_truth": "Disney operates across entertainment, sports, and experiences segments, including theme parks, media networks, and streaming services.",
+    "category": "summary",
+    "company": "DIS"
+  },
+  {
+    "question": "How does Chipotle approach food safety according to their 10-K filing?",
+    "ground_truth": "Chipotle takes the opportunity to learn and share their knowledge and expertise with other food safety professionals and regulatory agencies.",
+    "category": "analytical",
+    "company": "CMG"
+  },
+  {
+    "question": "What was Datadog's interest income in their most recent fiscal year?",
+    "ground_truth": "Datadog reported interest income and other income, net of $156,724 thousand in their most recent fiscal year.",
+    "category": "factual",
+    "company": "DDOG"
+  },
+  {
+    "question": "What growth challenges does Block (XYZ) describe for their business?",
+    "ground_truth": "Block's growth depends in part on existing sellers and customers expanding their use of Block's products and services.",
+    "category": "analytical",
+    "company": "XYZ"
+  },
+  {
+    "question": "How does Cloudflare describe the competitive landscape in their industry?",
+    "ground_truth": "Cloudflare faces competition from larger companies with greater financial resources that could lower prices to attract customers.",
+    "category": "analytical",
+    "company": "NET"
+  },
+  {
+    "question": "What was Datadog's income before provision for income taxes?",
+    "ground_truth": "Datadog's income before provision for income taxes was $203,940 thousand in their most recent fiscal year.",
+    "category": "factual",
+    "company": "DDOG"
+  },
+  {
+    "question": "What legal proceedings or risks does PayPal disclose in their 10-K?",
+    "ground_truth": "PayPal references legal proceedings in their filing, directing readers to Item 3 for details on legal proceedings.",
+    "category": "factual",
+    "company": "PYPL"
+  },
+  {
+    "question": "How has remote work affected Cloudflare's cybersecurity risk profile?",
+    "ground_truth": "The increase in remote work during recent years has heightened cybersecurity risks for Cloudflare, which is particularly significant given their focus on providing highly secure products.",
+    "category": "analytical",
+    "company": "NET"
+  },
+  {
+    "question": "What was Datadog's net income or loss for the year before the most recent one?",
+    "ground_truth": "Datadog reported net income of $48,568 thousand for the prior fiscal year.",
+    "category": "factual",
+    "company": "DDOG"
+  },
+  {
+    "question": "Compare the cybersecurity risk disclosures of Netflix and Cloudflare.",
+    "ground_truth": "Both Netflix and Cloudflare disclose cybersecurity risks in their 10-K filings. Netflix focuses on service interruptions and software errors, while Cloudflare emphasizes the risk to their security-focused business and heightened risks from remote work.",
+    "category": "comparison",
+    "company": "NFLX,NET"
+  },
+  {
+    "question": "What financial metrics show Datadog's profitability trend over the past three years?",
+    "ground_truth": "Datadog's net income improved from a loss of $50,160 thousand to income of $48,568 thousand, then to $183,746 thousand, showing a strong profitability trend.",
+    "category": "analytical",
+    "company": "DDOG"
+  },
+  {
+    "question": "How does PayPal describe the importance of human capital management?",
+    "ground_truth": "PayPal considers the management of their global talent (human capital) to be essential to the ongoing success of their business.",
+    "category": "analytical",
+    "company": "PYPL"
+  }
+]
