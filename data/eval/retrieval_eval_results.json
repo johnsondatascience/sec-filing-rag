@@ -1,0 +1,492 @@
+{
+  "summary": {
+    "total_questions": 25,
+    "company_hit_rate": 1.0,
+    "avg_keyword_overlap": 0.709,
+    "by_category": {
+      "analytical": {
+        "count": 11,
+        "company_hit_rate": 1.0,
+        "avg_keyword_overlap": 0.741
+      },
+      "comparison": {
+        "count": 1,
+        "company_hit_rate": 1.0,
+        "avg_keyword_overlap": 0.571
+      },
+      "factual": {
+        "count": 10,
+        "company_hit_rate": 1.0,
+        "avg_keyword_overlap": 0.717
+      },
+      "summary": {
+        "count": 3,
+        "company_hit_rate": 1.0,
+        "avg_keyword_overlap": 0.609
+      }
+    }
+  },
+  "per_question": [
+    {
+      "question": "How many employees did PayPal have as of December 31, 2025?",
+      "category": "factual",
+      "target_company": "PYPL",
+      "company_hit": true,
+      "companies_found": [
+        "PYPL"
+      ],
+      "keyword_overlap": 0.909,
+      "num_retrieved": 5,
+      "retrieved_sections": [
+        "PYPL 2026 Item 1A",
+        "PYPL 2025 Item 1A",
+        "PYPL 2026 Item 8",
+        "PYPL 2025 Item 8",
+        "PYPL 2026 Item 1A"
+      ]
+    },
+    {
+      "question": "What was Cloudflare's employee headcount growth from 2021 to 2023?",
+      "category": "factual",
+      "target_company": "NET",
+      "company_hit": true,
+      "companies_found": [
+        "DDOG",
+        "NET"
+      ],
+      "keyword_overlap": 0.938,
+      "num_retrieved": 5,
+      "retrieved_sections": [
+        "NET 2024 Item 7",
+        "DDOG 2025 Item 1A",
+        "DDOG 2024 Item 1A",
+        "NET 2024 Item 7",
+        "NET 2025 Item 7"
+      ]
+    },
+    {
+      "question": "What was Datadog's net income or loss for the most recent fiscal year reported?",
+      "category": "factual",
+      "target_company": "DDOG",
+      "company_hit": true,
+      "companies_found": [
+        "DDOG"
+      ],
+      "keyword_overlap": 0.615,
+      "num_retrieved": 5,
+      "retrieved_sections": [
+        "DDOG 2024 Item 8",
+        "DDOG 2025 Item 1A",
+        "DDOG 2024 Item 1A",
+        "DDOG 2025 Item 8",
+        "DDOG 2024 Item 8"
+      ]
+    },
+    {
+      "question": "What cybersecurity risks does Cloudflare face according to their 10-K filing?",
+      "category": "analytical",
+      "target_company": "NET",
+      "company_hit": true,
+      "companies_found": [
+        "NET",
+        "PYPL"
+      ],
+      "keyword_overlap": 0.562,
+      "num_retrieved": 5,
+      "retrieved_sections": [
+        "NET 2025 Item 7",
+        "PYPL 2025 Item 1A",
+        "PYPL 2026 Item 1A",
+        "NET 2024 Item 7",
+        "NET 2025 Item 7"
+      ]
+    },
+    {
+      "question": "How does Netflix describe the risk of service interruptions in their 10-K?",
+      "category": "analytical",
+      "target_company": "NFLX",
+      "company_hit": true,
+      "companies_found": [
+        "NET",
+        "NFLX",
+        "PYPL"
+      ],
+      "keyword_overlap": 0.708,
+      "num_retrieved": 5,
+      "retrieved_sections": [
+        "NFLX 2026 Item 1A",
+        "PYPL 2026 Item 1A",
+        "NET 2024 Item 7",
+        "NET 2025 Item 7",
+        "NFLX 2025 Item 1A"
+      ]
+    },
+    {
+      "question": "What competitive risks does Datadog face from larger competitors?",
+      "category": "analytical",
+      "target_company": "DDOG",
+      "company_hit": true,
+      "companies_found": [
+        "DDOG",
+        "XYZ"
+      ],
+      "keyword_overlap": 0.867,
+      "num_retrieved": 5,
+      "retrieved_sections": [
+        "XYZ 2025 Item 1A",
+        "DDOG 2024 Item 8",
+        "DDOG 2025 Item 1",
+        "DDOG 2024 Item 1A",
+        "DDOG 2025 Item 1"
+      ]
+    },
+    {
+      "question": "How does Block (XYZ) describe the impact of bitcoin on their revenue?",
+      "category": "analytical",
+      "target_company": "XYZ",
+      "company_hit": true,
+      "companies_found": [
+        "XYZ"
+      ],
+      "keyword_overlap": 1.0,
+      "num_retrieved": 5,
+      "retrieved_sections": [
+        "XYZ 2024 Item 1A",
+        "XYZ 2025 Item 8",
+        "XYZ 2024 Item 1A",
+        "XYZ 2024 Item 1A",
+        "XYZ 2024 Item 1"
+      ]
+    },
+    {
+      "question": "What role does Chipotle's digital platform play in their business strategy?",
+      "category": "analytical",
+      "target_company": "CMG",
+      "company_hit": true,
+      "companies_found": [
+        "CMG"
+      ],
+      "keyword_overlap": 0.909,
+      "num_retrieved": 5,
+      "retrieved_sections": [
+        "CMG 2025 Item 1",
+        "CMG 2026 Item 1",
+        "CMG 2025 Item 1",
+        "CMG 2026 Item 1",
+        "CMG 2025 Item 1"
+      ]
+    },
+    {
+      "question": "What measures does Datadog take to manage cybersecurity risk?",
+      "category": "factual",
+      "target_company": "DDOG",
+      "company_hit": true,
+      "companies_found": [
+        "DDOG"
+      ],
+      "keyword_overlap": 0.75,
+      "num_retrieved": 5,
+      "retrieved_sections": [
+        "DDOG 2025 Item 8",
+        "DDOG 2024 Item 8",
+        "DDOG 2024 Item 8",
+        "DDOG 2024 Item 1A",
+        "DDOG 2025 Item 1A"
+      ]
+    },
+    {
+      "question": "What percentage of PayPal's global workforce is located in the Americas?",
+      "category": "factual",
+      "target_company": "PYPL",
+      "company_hit": true,
+      "companies_found": [
+        "PYPL"
+      ],
+      "keyword_overlap": 0.778,
+      "num_retrieved": 5,
+      "retrieved_sections": [
+        "PYPL 2026 Item 1A",
+        "PYPL 2025 Item 1A",
+        "PYPL 2025 Item 8",
+        "PYPL 2026 Item 1",
+        "PYPL 2025 Item 1A"
+      ]
+    },
+    {
+      "question": "What were the main risk factors mentioned in Netflix's most recent 10-K filing?",
+      "category": "summary",
+      "target_company": "NFLX",
+      "company_hit": true,
+      "companies_found": [
+        "DIS",
+        "NFLX"
+      ],
+      "keyword_overlap": 0.286,
+      "num_retrieved": 5,
+      "retrieved_sections": [
+        "NFLX 2025 Item 8",
+        "NFLX 2025 Item 1",
+        "NFLX 2025 Item 8",
+        "NFLX 2026 Item 8",
+        "DIS 2025 Item 8"
+      ]
+    },
+    {
+      "question": "How does Target describe its business operations in their 10-K?",
+      "category": "summary",
+      "target_company": "TGT",
+      "company_hit": true,
+      "companies_found": [
+        "TGT"
+      ],
+      "keyword_overlap": 0.875,
+      "num_retrieved": 5,
+      "retrieved_sections": [
+        "TGT 2025 Item 1",
+        "TGT 2024 Item 8",
+        "TGT 2024 Item 8",
+        "TGT 2024 Item 1",
+        "TGT 2025 Item 1"
+      ]
+    },
+    {
+      "question": "What was Datadog's provision for income taxes in their most recent fiscal year?",
+      "category": "factual",
+      "target_company": "DDOG",
+      "company_hit": true,
+      "companies_found": [
+        "DDOG"
+      ],
+      "keyword_overlap": 0.714,
+      "num_retrieved": 5,
+      "retrieved_sections": [
+        "DDOG 2025 Item 8",
+        "DDOG 2024 Item 8",
+        "DDOG 2024 Item 1A",
+        "DDOG 2025 Item 1A",
+        "DDOG 2025 Item 8"
+      ]
+    },
+    {
+      "question": "What are Disney's main business segments described in their 10-K?",
+      "category": "summary",
+      "target_company": "DIS",
+      "company_hit": true,
+      "companies_found": [
+        "DIS"
+      ],
+      "keyword_overlap": 0.667,
+      "num_retrieved": 5,
+      "retrieved_sections": [
+        "DIS 2024 Item 1",
+        "DIS 2025 Item 1",
+        "DIS 2025 Item 8",
+        "DIS 2024 Item 8",
+        "DIS 2025 Item 8"
+      ]
+    },
+    {
+      "question": "How does Chipotle approach food safety according to their 10-K filing?",
+      "category": "analytical",
+      "target_company": "CMG",
+      "company_hit": true,
+      "companies_found": [
+        "CMG"
+      ],
+      "keyword_overlap": 0.889,
+      "num_retrieved": 5,
+      "retrieved_sections": [
+        "CMG 2026 Item 1",
+        "CMG 2026 Item 1",
+        "CMG 2025 Item 1",
+        "CMG 2025 Item 7",
+        "CMG 2026 Item 7"
+      ]
+    },
+    {
+      "question": "What was Datadog's interest income in their most recent fiscal year?",
+      "category": "factual",
+      "target_company": "DDOG",
+      "company_hit": true,
+      "companies_found": [
+        "DDOG"
+      ],
+      "keyword_overlap": 0.706,
+      "num_retrieved": 5,
+      "retrieved_sections": [
+        "DDOG 2024 Item 1A",
+        "DDOG 2025 Item 8",
+        "DDOG 2025 Item 1A",
+        "DDOG 2024 Item 8",
+        "DDOG 2024 Item 8"
+      ]
+    },
+    {
+      "question": "What growth challenges does Block (XYZ) describe for their business?",
+      "category": "analytical",
+      "target_company": "XYZ",
+      "company_hit": true,
+      "companies_found": [
+        "NET",
+        "XYZ"
+      ],
+      "keyword_overlap": 0.812,
+      "num_retrieved": 5,
+      "retrieved_sections": [
+        "XYZ 2024 Item 1",
+        "NET 2024 Item 7",
+        "XYZ 2025 Item 1",
+        "XYZ 2024 Item 1A",
+        "NET 2025 Item 7"
+      ]
+    },
+    {
+      "question": "How does Cloudflare describe the competitive landscape in their industry?",
+      "category": "analytical",
+      "target_company": "NET",
+      "company_hit": true,
+      "companies_found": [
+        "NET"
+      ],
+      "keyword_overlap": 0.588,
+      "num_retrieved": 5,
+      "retrieved_sections": [
+        "NET 2025 Item 1",
+        "NET 2024 Item 1",
+        "NET 2024 Item 1",
+        "NET 2025 Item 1",
+        "NET 2024 Item 1"
+      ]
+    },
+    {
+      "question": "What was Datadog's income before provision for income taxes?",
+      "category": "factual",
+      "target_company": "DDOG",
+      "company_hit": true,
+      "companies_found": [
+        "DDOG",
+        "NFLX"
+      ],
+      "keyword_overlap": 0.533,
+      "num_retrieved": 5,
+      "retrieved_sections": [
+        "DDOG 2025 Item 8",
+        "DDOG 2024 Item 8",
+        "NFLX 2026 Item 8",
+        "DDOG 2025 Item 8",
+        "NFLX 2025 Item 8"
+      ]
+    },
+    {
+      "question": "What legal proceedings or risks does PayPal disclose in their 10-K?",
+      "category": "factual",
+      "target_company": "PYPL",
+      "company_hit": true,
+      "companies_found": [
+        "PYPL"
+      ],
+      "keyword_overlap": 0.562,
+      "num_retrieved": 5,
+      "retrieved_sections": [
+        "PYPL 2026 Item 1A",
+        "PYPL 2025 Item 8",
+        "PYPL 2026 Item 8",
+        "PYPL 2026 Item 8",
+        "PYPL 2026 Item 8"
+      ]
+    },
+    {
+      "question": "How has remote work affected Cloudflare's cybersecurity risk profile?",
+      "category": "analytical",
+      "target_company": "NET",
+      "company_hit": true,
+      "companies_found": [
+        "NET"
+      ],
+      "keyword_overlap": 0.462,
+      "num_retrieved": 5,
+      "retrieved_sections": [
+        "NET 2024 Item 1",
+        "NET 2025 Item 1",
+        "NET 2024 Item 1",
+        "NET 2025 Item 1",
+        "NET 2025 Item 7"
+      ]
+    },
+    {
+      "question": "What was Datadog's net income or loss for the year before the most recent one?",
+      "category": "factual",
+      "target_company": "DDOG",
+      "company_hit": true,
+      "companies_found": [
+        "DDOG"
+      ],
+      "keyword_overlap": 0.667,
+      "num_retrieved": 5,
+      "retrieved_sections": [
+        "DDOG 2025 Item 8",
+        "DDOG 2024 Item 8",
+        "DDOG 2025 Item 8",
+        "DDOG 2025 Item 1A",
+        "DDOG 2025 Item 8"
+      ]
+    },
+    {
+      "question": "Compare the cybersecurity risk disclosures of Netflix and Cloudflare.",
+      "category": "comparison",
+      "target_company": "NFLX,NET",
+      "company_hit": true,
+      "companies_found": [
+        "DIS",
+        "NET",
+        "NFLX"
+      ],
+      "keyword_overlap": 0.571,
+      "num_retrieved": 5,
+      "retrieved_sections": [
+        "NFLX 2026 Item 1A",
+        "NFLX 2025 Item 1A",
+        "DIS 2025 Item 1A",
+        "NET 2024 Item 8",
+        "DIS 2024 Item 1A"
+      ]
+    },
+    {
+      "question": "What financial metrics show Datadog's profitability trend over the past three years?",
+      "category": "analytical",
+      "target_company": "DDOG",
+      "company_hit": true,
+      "companies_found": [
+        "DDOG"
+      ],
+      "keyword_overlap": 0.421,
+      "num_retrieved": 5,
+      "retrieved_sections": [
+        "DDOG 2024 Item 1A",
+        "DDOG 2024 Item 1A",
+        "DDOG 2025 Item 1A",
+        "DDOG 2025 Item 8",
+        "DDOG 2024 Item 8"
+      ]
+    },
+    {
+      "question": "How does PayPal describe the importance of human capital management?",
+      "category": "analytical",
+      "target_company": "PYPL",
+      "company_hit": true,
+      "companies_found": [
+        "PYPL",
+        "XYZ"
+      ],
+      "keyword_overlap": 0.938,
+      "num_retrieved": 5,
+      "retrieved_sections": [
+        "PYPL 2026 Item 1A",
+        "PYPL 2025 Item 1A",
+        "PYPL 2025 Item 1",
+        "XYZ 2024 Item 1",
+        "PYPL 2026 Item 7"
+      ]
+    }
+  ]
+}
