@@ -2,13 +2,18 @@
 
 from __future__ import annotations
 
+import os
 import re
 
-from anthropic import Anthropic
+from openai import OpenAI
 
 from src.chunker import Chunk
-from src.config import LLM_MODEL, MAX_CONTEXT_CHUNKS
+from src.config import MAX_CONTEXT_CHUNKS
 
+
+# LM Studio defaults
+LLM_BASE_URL = os.getenv("LLM_BASE_URL", "http://localhost:1234/v1")
+LLM_MODEL = os.getenv("LLM_MODEL", "qwen3")
 
 SYSTEM_PROMPT = (
     "You are a financial analyst assistant. Answer questions using ONLY the provided sources. "
@@ -41,21 +46,23 @@ def generate_answer(
     query: str,
     chunks: list[Chunk],
 ) -> dict:
-    """Generate a cited answer using Claude.
+    """Generate a cited answer using a local LLM via OpenAI-compatible API.
 
     Returns dict with keys: answer, citations, sources.
     """
-    client = Anthropic()
+    client = OpenAI(base_url=LLM_BASE_URL, api_key="lm-studio")
     prompt = build_prompt(query, chunks)
 
-    response = client.messages.create(
+    response = client.chat.completions.create(
         model=LLM_MODEL,
         max_tokens=1024,
-        system=SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": prompt}],
+        messages=[
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": prompt},
+        ],
     )
 
-    answer_text = response.content[0].text
+    answer_text = response.choices[0].message.content
     cited_nums = extract_citations(answer_text)
 
     # Build source references for cited chunks only

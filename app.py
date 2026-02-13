@@ -1,5 +1,8 @@
 """Streamlit UI for SEC Filing RAG with citations."""
 
+from dotenv import load_dotenv
+load_dotenv()
+
 import streamlit as st
 import chromadb
 

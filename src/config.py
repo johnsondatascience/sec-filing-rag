@@ -34,5 +34,4 @@ RERANK_TOP_K = 5
 CHROMA_COLLECTION_NAME = "sec_10k_filings"
 
 # Generation
-LLM_MODEL = "claude-sonnet-4-5-20250929"
 MAX_CONTEXT_CHUNKS = 5
