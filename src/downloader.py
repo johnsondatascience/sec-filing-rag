@@ -18,7 +18,12 @@ def download_10k_filings(
     results: dict[str, list[str]] = {}
 
     for ticker in tickers:
-        dl.get("10-K", ticker, limit=limit)
+        try:
+            dl.get("10-K", ticker, limit=limit)
+        except ValueError as e:
+            print(f"  SKIP {ticker}: {e}")
+            results[ticker] = []
+            continue
         filing_dir = RAW_DIR / "sec-edgar-filings" / ticker / "10-K"
         if filing_dir.exists():
             results[ticker] = sorted(
